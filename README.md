@@ -20,7 +20,6 @@ Source: [kaggle](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
 - KNN
 - Decision Tree Classifier
 - Random Forest Classifier
-- KNN
 - Naive Bayes
 - SVM
 - XGB Classifier
@@ -31,8 +30,8 @@ Source: [kaggle](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
 - F1-score
 - Confusion Matrix
 # Visualization
-- Confusion matrix for each model
-- pairplot
+- Pairplots show feature distributions and inter-class separations.
+- Confusion matrices illustrate per-class prediction accuracy.
 # Project Workflow
 1. Data Collection:
    - Load the iris dataset
@@ -51,7 +50,6 @@ Source: [kaggle](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
    - KNN
    - Decision Tree Classifier
    - Random Forest Classifier
-   - KNN
    - Naive Bayes
    - SVM
    - XGB Classifier 
@@ -82,20 +80,3 @@ In this project, all implemented classification algorithms achieved perfect scor
 These perfect metrics confirm the effectiveness of classical machine learning models for this problem and highlight the suitability of the dataset for introductory data science applications. While such perfect classification is rare in real-world scenarios, it is possible and expected with the Iris dataset when best practices in data splitting and validation are followed.
 
 Overall, the project showcases the power of machine learning in automating species identification and provides a strong foundation for exploring more complex classification tasks in the future.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
