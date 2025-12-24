@@ -1,67 +1,52 @@
-# iris-flower-classification
-# Overview
-Iris Flower Classification is a classic machine learning project that demonstrates supervised classification using the Iris dataset. The goal is to develop a model capable of predicting the species of an Iris flower based on its morphological measurements: sepal length, sepal width, petal length, and petal width. The dataset contains three species: Iris setosa, Iris versicolor, and Iris virginica
-# Dataset
-Source: [kaggle](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
-- Features:
-    - Sepal Length (cm)
-    - Sepal Width (cm)
-    - Petal Length (cm)
-    - Petal Width (cm)
-- Target: Species (setosa, versicolor, virginica).
-# Technologies & Libraries Used
-- Python 
-- Pandas & NumPy
-- Matplotlib & Seaborn
-- Scikit-learn
-- XGBoost
-# Machine Learning Models
-- Logistic Regression
-- KNN
-- Decision Tree Classifier
-- Random Forest Classifier
-- Naive Bayes
-- SVM
-- XGB Classifier
-# Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
-# Visualization
-- Pairplots show feature distributions and inter-class separations.
-- Confusion matrices illustrate per-class prediction accuracy.
-# Project Workflow
-1. Data Collection:
-   - Load the iris dataset
+# Iris Flower Classification
 
-2. Data Preprocessing:
-   - data.head()
-   - Handle missing values
-   - Encode categorical data
-   - Split into training and testing sets
+## 📌 Project Overview
+The Iris Flower Classification project focuses on building a machine learning model to classify iris flowers into different species based on their physical characteristics. This is a classic supervised learning problem used to demonstrate classification workflows in machine learning.
 
-3. Feature Scaling:
-   - Standardize features for better model performance
+---
 
-4. Model Training:
-   - Logistic Regression
-   - KNN
-   - Decision Tree Classifier
-   - Random Forest Classifier
-   - Naive Bayes
-   - SVM
-   - XGB Classifier 
+## 📖 Problem Statement
+Predict the species of an iris flower (**Setosa, Versicolor, Virginica**) using sepal and petal measurements with machine learning techniques.
 
-5. Model Evaluation:
-   - accuracy
-   - precision
-   - recall
-   - f1-score
-   - confusion matrix
+---
 
-# Results:
+## 📊 Dataset
+- Iris dataset containing 150 samples  
+- Features include:
+  - Sepal length
+  - Sepal width
+  - Petal length
+  - Petal width  
+- Balanced dataset with three flower classes
+
+---
+
+## 🛠️ Approach
+The project follows an end-to-end machine learning pipeline:
+
+- Data loading and exploratory data analysis (EDA)  
+- Data preprocessing and feature analysis  
+- Model training using:
+  - Logistic Regression
+  - K-Nearest Neighbors (KNN)  
+- Model evaluation and comparison  
+- Visualization of results using confusion matrix and plots  
+
+---
+
+## 📈 Model Evaluation
+Models were evaluated using:
+- Accuracy score  
+- Confusion matrix  
+- Classification report  
+
+---
+
+## 📊 Results
+- Achieved **95%+ classification accuracy**
+- Both Logistic Regression and KNN performed well on the dataset
+- Visualization confirmed good class separation
+#
 
               precision    recall  f1-score   support
 
@@ -73,10 +58,28 @@ Source: [kaggle](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
     macro avg      1.00      1.00      1.00        30
     weighted avg   1.00      1.00      1.00        30
 
-# Conclusion
+---
 
-In this project, all implemented classification algorithms achieved perfect scores (accuracy, precision, recall, and F1-score of 1.0) on the Iris dataset. This exceptional result demonstrates that the chosen features—sepal length, sepal width, petal length, and petal width—provide clear and distinct separation among the three Iris species. The simplicity, balance, and well-structured nature of the dataset make it ideal for benchmarking supervised learning algorithms.
+## 🧰 Tools & Technologies
+- Python  
+- Pandas  
+- NumPy  
+- scikit-learn  
+- Matplotlib  
 
-These perfect metrics confirm the effectiveness of classical machine learning models for this problem and highlight the suitability of the dataset for introductory data science applications. While such perfect classification is rare in real-world scenarios, it is possible and expected with the Iris dataset when best practices in data splitting and validation are followed.
+---
 
-Overall, the project showcases the power of machine learning in automating species identification and provides a strong foundation for exploring more complex classification tasks in the future.
+## 🚀 Future Improvements
+- Hyperparameter tuning for KNN  
+- Try additional classifiers such as SVM  
+- Visualize decision boundaries  
+
+---
+
+## 📌 Conclusion
+This project demonstrates the fundamentals of supervised learning, model evaluation, and data visualization using a well-known classification dataset.
+
+---
+
+## 📎 Repository Link
+[Iris Flower Classification](https://github.com/praveenakula9/iris-flower-classification)
